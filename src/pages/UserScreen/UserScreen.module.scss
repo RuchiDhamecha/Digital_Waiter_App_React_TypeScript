@@ -1,0 +1,21 @@
+ .Heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    color: #082346;
+ }
+.MenuItems{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 4rem;
+    justify-content: space-around;
+
+}
+.Cart{
+    padding: 0.75rem 1rem;
+    color: #080d41;
+    background-color: rgb(196, 196, 248);
+    border-radius: 8rem;
+}

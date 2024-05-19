@@ -1,0 +1,37 @@
+export const data=[
+    {
+        tableno:1,
+        available:true,
+        seatCapacity:4
+    },
+    {
+        tableno:2,
+        available:false,
+        seatCapacity:8,
+    },
+    {
+        tableno:3,
+        available:false,
+        seatCapacity:2,
+    },
+    {
+        tableno:4,
+        available:false,
+        seatCapacity:2,
+    }
+    ,{
+        tableno:5,
+        available:true,
+        seatCapacity:8,
+    },
+    {
+        tableno:6,
+        available:false,
+        seatCapacity:2,
+    },
+    ,{
+        tableno:7,
+        available:true,
+        seatCapacity:8,
+    }
+]

@@ -1,0 +1,18 @@
+ .Item{
+    display: flex;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    padding: 0.75rem;
+    margin: 1rem 1rem 1rem 0;
+    align-items: center;
+    gap :1rem;
+    justify-content: space-around ;
+
+    button{
+        padding: 0.5rem 1.25rem;
+        border: none;
+        background-color: #c7c7f7;
+        color: #082346;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}

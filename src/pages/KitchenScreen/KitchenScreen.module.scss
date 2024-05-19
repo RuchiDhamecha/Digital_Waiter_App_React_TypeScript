@@ -1,0 +1,36 @@
+ .KitchenScreen{
+   
+     border: 2px solid #ccc;
+     margin: 2rem 4rem;
+
+    .Tabs{
+        display: flex;
+        padding: 1rem 1rem;
+        text-align: center;
+        margin-left: 2rem;
+       
+    }
+
+ }
+.Content{
+    display: none;
+}
+.ShowContent{
+    display:block;
+    padding-left: 3rem;
+    margin: 1rem 0;
+}
+li{
+    list-style-type: none;
+    padding: 1rem 3rem;
+    display: inline;
+    color: white;
+    background-color: #082346;
+    border: 1px solid white;
+}
+li:hover{
+    color: #082346;
+    border: 1px solid #082346;
+    background-color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.TableBox{
+    // display: inline;
+    padding: 2rem 3rem;
+    margin: 2rem;
+    box-shadow: 1px 1px 8px 4px #e8e3ff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f2f1fc;
+    h2{
+        padding-bottom:1rem ;
+        color: rgb(12, 12, 82);
+    }
+    .GreenFont{
+        color: green;
+    }
+    .RedFont{
+        color: rgb(187, 3, 3);
+    }
+   
+}

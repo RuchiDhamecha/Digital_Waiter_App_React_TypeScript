@@ -1,0 +1,23 @@
+ 
+.Menu{
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    box-sizing: content-box;
+    box-shadow: 1px 1px 8px 4px rgb(206, 206, 231);
+    padding: 1.5rem;
+    gap: 4rem;
+    button{
+       padding: 0.5rem 1.25rem;
+       background-color: #ccc2f5;
+       color: #082346;
+       border-radius: 4px;
+       border: none;
+       justify-content: center;
+       margin-top: 0.5rem;
+    }
+    .SpaceBetween{
+        display: flex;
+        justify-content: space-between;
+    }
+}

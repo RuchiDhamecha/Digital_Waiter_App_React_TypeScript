@@ -1,0 +1,44 @@
+ 
+.ModalWrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(200, 201, 241, 0.884);
+}
+.ModalContainer{
+    position: fixed;
+    padding: 2rem;
+    max-width: 30rem;
+    top: 30%;
+    left: 35%;
+    border: 1px solid #0c0755;
+    background-color: #fff;
+    border-radius: 8px;
+    // background-color: ;
+
+    .Flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: 1rem 0;
+    }
+   
+    h3{
+        text-align: right;
+        margin: 1rem 0;
+        cursor: pointer;
+       
+    }
+    .Heading{
+        align-items: center;
+        margin: 1rem 0;
+    }
+}
+.Click{
+    cursor: pointer;
+    text-decoration: underline #aaa9a9;
+    text-underline-offset: 8px;
+}
