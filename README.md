@@ -39,4 +39,4 @@
 
 
 ### Conclusion
-The Digital Waiter App transforms traditional dining by integrating advanced technology with exceptional customer service. Whether you're a busy urban restaurant or a cozy local café, this app is the perfect solution to modernize your establishment and delight your guests.
+The 'Digital Waiter App' transforms traditional dining by integrating advanced technology with exceptional customer service. Whether you're a busy urban restaurant or a cozy local café, this app is the perfect solution to modernize your establishment and delight your guests.
