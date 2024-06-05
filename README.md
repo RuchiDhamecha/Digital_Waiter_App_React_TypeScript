@@ -20,22 +20,22 @@
 
 ### Screen 3 : Kitchen Screen
 - The new orders placed by customer will be displayed to kitchen staff.
-  ![kitchen orders](./app%20images/kitchen%20new%20orders.png)
+ ![new orders tab](./app%20images/kitchen%20new%20orders.png)
 
 - Modal of 'View Order Details' displays information about the food order.
-  ![modal](./app%20images/kitchen%20order%20modal.png)
+ ![modal](./app%20images/kitchen%20order%20modal.png)
 
 - 'Start Cooking' button will remove the order from 'New Orders' tab and will add to 'Started Order' tab.
   
   - added to 'Started Cooking' tab
-  ![stated cooking](./app%20images/started%20cooking.png)
+  ![started cooking](./app%20images/started%20cooking.png)
 
 
   - Removed from 'New Orders' tab
-  ![New orders](./app%20images/kitchen%20start%20cooking.png)
+  ![removed from new orders](./app%20images/kitchen%20start%20cooking.png)
 
   - In "Started Cooking" Tab, clicking on complete, it will remove order from there.
-  ![completed order](./app%20images/completed%20cooking.png)
+  ![completed & removed order](./app%20images/started%20cooking.png)
 
 
 ### Conclusion
