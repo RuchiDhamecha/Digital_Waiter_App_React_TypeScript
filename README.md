@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Digital Waiter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Build in React + TypeScript
 
-Currently, two official plugins are available:
+### The Digital Waiter App is a cutting-edge mobile application designed to streamline restaurant operations and enhance the dining experience. This user-friendly app allows customers to order food, request services, and pay their bills directly from their smartphones or tablets, providing a seamless and efficient dining journey from start to finish.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Screen 1 : Displays Occupancy of tables in Restaurant
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#### (All the data is fetched using RestAPI)
+![tables](./app%20images/table.png)
 
-- Configure the top-level `parserOptions` property like this:
+### Screen 2 : User's Screen 
+ - Displays menu along with adding to cart 
+ - Cart displays total price and place order button
+#### (All the data is fetched using RestAPI)
+  
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![user menu](./app%20images/user%20screen.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Screen 3 : Kitchen Screen
+- The new orders placed by customer will be displayed to kitchen staff.
+  ![kitchen orders](./app%20images/kitchen%20new%20orders.png)
+
+- Modal of 'View Order Details' displays information about the food order.
+  ![modal](./app%20images/kitchen%20order%20modal.png)
+
+- 'Start Cooking' button will remove the order from 'New Orders' tab and will add to 'Started Order' tab.
+  
+  - added to 'Started Cooking' tab
+  ![stated cooking](./app%20images/started%20cooking.png)
+
+
+  - Removed from 'New Orders' tab
+  ![New orders](./app%20images/kitchen%20start%20cooking.png)
+
+  - In "Started Cooking" Tab, clicking on complete, it will remove order from there.
+  ![completed order](./app%20images/completed%20cooking.png)
+
+
+### Conclusion
+The Digital Waiter App transforms traditional dining by integrating advanced technology with exceptional customer service. Whether you're a busy urban restaurant or a cozy local café, this app is the perfect solution to modernize your establishment and delight your guests.
