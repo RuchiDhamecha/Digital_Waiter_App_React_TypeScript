@@ -8,6 +8,8 @@
 ### Screen 1 : Displays Occupancy of tables in Restaurant
 
 #### (All the data is fetched using RestAPI)
+![table](https://github.com/RuchiDhamecha/Digital_Waiter_App_React_TypeScript/assets/87808663/8cecc71f-0ec9-4190-8cd8-054fa763a3a8)
+
 ![tables](./app%20images/table.png)
 
 ### Screen 2 : User's Screen 
