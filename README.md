@@ -38,7 +38,7 @@
   
   - added to 'Started Cooking' tab
     
-     ![started cooking](https://github.com/RuchiDhamecha/Digital_Waiter_App_React_TypeScript/assets/87808663/c62f75a4-d950-473d-9b9f-f7df0ac40ef0)
+  ![started cooking](https://github.com/RuchiDhamecha/Digital_Waiter_App_React_TypeScript/assets/87808663/c62f75a4-d950-473d-9b9f-f7df0ac40ef0)
 
  <!-- ![started cooking](./app%20images/started%20cooking.png) -->
 
